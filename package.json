@@ -1,0 +1,23 @@
+{
+  "name": "cron-process",
+  "version": "0.0.1",
+  "description": "manage cron processes to avoid running duplicate processes & killing hang-up processes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Mugendi <ngurumugz@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "cron",
+    "spawn",
+    "process",
+    "manage",
+    "kill",
+    "hang"
+  ],
+  "dependencies": {
+    "cron": "^1.3.0",
+    "debug": "^3.1.0"
+  }
+}
